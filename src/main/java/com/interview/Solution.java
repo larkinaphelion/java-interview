@@ -1,5 +1,7 @@
 package com.interview;
 
+import java.io.PrintStream;
+
 public class Solution {
 
     public int check() {
@@ -7,6 +9,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println("check() = " + new Solution().check());
+        run(System.out);
+    }
+
+    static void run(PrintStream out) {
+        out.println("check() = " + new Solution().check());
     }
 }
