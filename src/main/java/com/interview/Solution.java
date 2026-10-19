@@ -2,11 +2,11 @@ package com.interview;
 
 public class Solution {
 
-    public int add(int a, int b) {
-        return a + b;
+    public int check() {
+        return 1;
     }
 
     public static void main(String[] args) {
-        System.out.println("2 + 3 = " + new Solution().add(2, 3));
+        System.out.println("check() = " + new Solution().check());
     }
 }

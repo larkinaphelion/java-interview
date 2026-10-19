@@ -8,6 +8,6 @@ class SolutionTest {
 
     @Test
     void check() {
-        assertThat(1).isEqualTo(1);
+        assertThat(new Solution().check()).isEqualTo(1);
     }
 }
